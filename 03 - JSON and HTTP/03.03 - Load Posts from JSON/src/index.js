@@ -1,6 +1,7 @@
 import 'whatwg-fetch';
 
-const apiRoot = 'https://api-demo.dev/wp-json',
+// Set variables
+let apiRoot = 'https://api-demo.dev/wp-json',
 			articleContainer = document.querySelector('main#main'),
 			listPosts = {};
 

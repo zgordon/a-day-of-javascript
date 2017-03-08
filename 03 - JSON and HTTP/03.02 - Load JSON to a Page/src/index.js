@@ -1,6 +1,7 @@
 import 'whatwg-fetch';
 
-const apiRoot = 'https://localhost:9000/post.json',
+// Set variables
+let apiRoot = 'https://localhost:9000/post.json',
 			articleContainer = document.querySelector('main#main'),
 			listPosts = {};
 
@@ -17,12 +18,13 @@ listPosts.init = function() {
           response.status);
         return;
       }
-			response.json().then(function(posts) {
+			response.json().then( posts => {
+				console.log( posts );
 				listPosts.clearPosts();
 				listPosts.render( posts );
 			});
 		})
-		.catch(function(err) {
+		.catch( err => {
 			console.log('Error: ', err);
 		});
 
