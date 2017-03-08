@@ -1,5 +1,1 @@
-// document.getElementById()
-// document.getElementsByTagName()
-// document.getElementsByClassName()
-// document.querySelector()
-// document.querySelectorAll()
+let title = document.getElementById( 'main-title' ),		content = document.querySelector( '.content' ),		link = document.getElementsByTagName( 'a' )[0],		input = document.querySelector( 'input.username' );title.innerText = 'New Title';content.innerHTML = '<p>My new content</p>';console.log( content.innerText, content.innerHTML );console.log( title.id );link.href = "https://hikacked.com";console.log( link.href );console.log( input.value );// el.classList.add(‘new’)// el.classList.remove(‘new’)// el.classList.toggle(‘new’)

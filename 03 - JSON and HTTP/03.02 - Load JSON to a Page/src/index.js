@@ -9,9 +9,9 @@ let apiRoot = 'https://localhost:9000/post.json',
  * init - Initialize the listing of posts
  *
  */
-listPosts.init = function() {
+listPosts.init =function() {
 
-	fetch(  apiRoot )
+	fetch( apiRoot )
 		.then( response => {
       if (response.status !== 200) {
         console.log('Problem! Status Code: ' +

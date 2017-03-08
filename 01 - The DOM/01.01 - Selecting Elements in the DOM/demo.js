@@ -6,7 +6,7 @@
 
 // Set Variables
 let mainContentEl = document.getElementById('main'),
-		post1 = {
+		posts = {
 			title: document.querySelector('article.post .entry-title a'),
 			content: document.querySelector('article.post .entry-content')
 		},
