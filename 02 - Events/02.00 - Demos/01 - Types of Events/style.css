@@ -1,0 +1,145 @@
+body {
+  background: #efefef;
+  text-align: center;
+}
+
+h1 {
+  font-size: 200%;
+  font-family: sans-serif;
+}
+
+.content {
+  background: #fff;
+  border: 1px #ddd solid;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 60%;
+}
+
+.child {
+  background: #ddd
+}
+
+.hidden {
+  display: none;
+}
+
+.button {
+  background-color: green;
+  border: 1px green solid;
+  border-radius: 5px;
+  color: #fff;
+  font-family: Helvetica, sans-serif;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+
+ul {
+  text-align: left;
+  font-size: 1.4rem;
+}
+
+#contact {
+  width: 200px;
+  margin: 0 auto;
+  display: none;
+}
+
+#contact input,
+#contact textarea {
+  width: 100%;
+}
+
+#contact textarea {
+  height: 4rem;
+}
+
+#contact label {
+  text-align: left;
+  width: 100%;
+  display: block;
+  margin: 10px 0 5px;
+}
+
+#video,
+#drag-and-drop-demo,
+#lightbox-demo {
+  display: none;
+}
+
+#drag-and-drop-demo {
+  width: 100%;
+  overflow: auto;
+}
+
+.draggable.items,
+.droppable {
+  border: 4px #222 solid;
+  float: left;
+  min-height: 200px;
+  width: 45%;
+}
+
+.draggable.items {
+  border-color: #fff;
+}
+
+.droppable {
+  float: right;
+  padding: 5px;
+}
+
+.droppable.active {
+  border: 4px green dashed;
+  background-color: #D0FCC5;
+}
+
+.draggable.item {
+  border: 4px #999 solid;
+  margin: 10px auto;
+  padding: 10px;
+}
+
+.draggable.item.move:hover {
+  cursor: move;
+}
+
+.draggable.item.copy:hover {
+  cursor: copy;
+}
+
+.draggable.item.active {
+  border: 4px #ccc dashed;
+}
+
+#lightbox-demo img.wapuu {
+  width: 200px;
+}
+
+#overlay {
+  background: rgba( 0, 0, 0, .8 );
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  z-index: 1000;
+  top: 0;
+  left: 0;
+}
+
+#overlay a.close {
+    color: #fff;
+    text-decoration: none;
+    font-size: 2rem;
+    font-family: Helvetica;
+    border: 4px #fff solid;
+    padding: 10px;
+    top: 10px;
+    right: 10px;
+    position: absolute;
+    background: rgba( 255, 255, 255, .1);
+}
+
+#overlay img {
+  max-width: 600px;
+  margin-top: 40px;
+}

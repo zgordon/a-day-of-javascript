@@ -1,0 +1,1 @@
+// link.addEventListener( 'click', sayHi, false );//// function sayHi() {//   e = arguments[0] || event;//   console.log( e );//   console.log( e.type );//   console.log( e.target );// }//

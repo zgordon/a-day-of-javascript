@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>DOM Events</title>
+  <link rel="stylesheet" href="style.css" media="screen" charset="utf-8">
+</head>
+<body>
+  <h1>DOM Events with JavaScript</h1>
+
+  <div class="content parent">
+    <h2>Parent</h2>
+    <div class="content child">
+      <h3>Child</h3>
+      <p id="loggedKeys"></p>
+    </div>
+
+    <form id="contact" action="" method="post">
+      <p>
+        <label for="name">Name</label>
+        <input type="text" name="name" value="" placeholder="Your name" >
+      </p>
+      <p>
+        <label for="email">Email</label>
+        <input type="email" name="email"  value="" placeholder="Your email" >
+      </p>
+      <p>
+        <label for="message">Message</label>
+        <textarea name="message"></textarea>
+      </p>
+      <p>
+        <input type="submit" value="Send!">
+      </p>
+    </form>
+
+    <div id="drag-and-drop-demo">
+      <div class="draggable items">
+        <h2>Draggables</h2>
+        <div class="draggable item move" draggable="true">Move Me!</div>
+        <div class="draggable item copy" draggable="true">Copy Me!</div>
+      </div>
+      <div class="droppable">
+        <h2>Drop Zone</h2>
+      </div>
+    </div>
+
+    <div id="lightbox-demo">
+      <a class="lightbox" href="jswapuu.png"><img class="wapuu" src="jswapuu.png" alt="JS Wapuu" title="Meet JS for WP Wapuu!!!"></a>
+    </div>
+
+  </div>
+
+  <div id="video">
+    <video controls>
+      <source src="demo-video.mp4" type="video/mp4">
+      Sorry, your browser doesn't support embedded videos :(
+    </video>
+    <p>
+      <input id="play" type="submit" value="Play">
+      <input id="pause" type="submit" value="Pause">
+      <input id="restart" type="submit" value="Go to the Beginning">
+			<input id="skipForward" type="submit" value="Go Forward 10 Seconds">
+      Timestamp: <span id="timestamp">0:00</span>
+    </p>
+  </div>
+
+  <footer>Footer: Welcome</footer>
+
+<script src="app.js"></script>
+</body>
+</html>
