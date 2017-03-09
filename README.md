@@ -1,4 +1,4 @@
-# A Day of JavaScript Workshop with Zac Gordon from A Day for REST 2017
+# A Day of JavaScript for WordPress Workshop
 
 The resources go along with the Day of JavaScript Workshop from the Day of REST Conference.  They focus on the 3 major things you need to know about native JavaScript in order to start doing more JS and API driven WordPress Development.
 
