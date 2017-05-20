@@ -16,6 +16,8 @@ let post = {
 postMarkup += `<h2 class="entry-title"><a href="#">${post.title}</a></h2>`;
 postMarkup += `<div class="entry-content"><p>${post.content}</p></div>`;
 
+  // Indent
+
 articleEl.innerHTML = postMarkup;
 articleEl.classList.add( 'post' );
 mainContentEl.appendChild( articleEl );
