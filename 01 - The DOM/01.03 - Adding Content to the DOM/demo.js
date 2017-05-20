@@ -5,8 +5,8 @@
 
 // Set Variables
 let post = {
-				title: 'New Post',
-				content: 'Get it going!!!'
+			title: 'New Post',
+			content: 'Get it going!!!'
 		},
 		articleEl = document.createElement('article'),
 		postMarkup = '',
