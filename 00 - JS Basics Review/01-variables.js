@@ -1,6 +1,6 @@
 // Variables
 var username = 'zgordon',
-		userId = 1;
+    userId = 1;
 
 let loggedInUserId = 0;
 

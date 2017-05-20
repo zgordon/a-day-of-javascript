@@ -1,7 +1,7 @@
 // Array
 
 let postIds = [ 1, 2, 7, 8 ],
-		postTitles = [ 'Hello World!', 'Hello Variables', 'Hello Arrays' ];
+    postTitles = [ 'Hello World!', 'Hello Variables', 'Hello Arrays' ];
 
 // Add item to front of array
 postTitles.push( 'Newest Post' );
