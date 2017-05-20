@@ -1,10 +1,10 @@
-// let li = document.createElement( 'li' ),
-// 		liText = document.createTextNode( 'New text!!!' ),
-// 		liFrag = document.createDocumentFragment(),
-// 		ul = document.getElementsByTagName( 'ul' )[0];
-//
-// li.appendChild( liText );
-// ul.appendChild( li );
+let li = document.createElement( 'li' ),
+    liText = document.createTextNode( 'New text!!!' ),
+    liFrag = document.createDocumentFragment(),
+    ul = document.getElementsByTagName( 'ul' )[0];
+
+li.appendChild( liText );
+ul.appendChild( li );
 
 let mainContentEl = document.getElementById( 'main' ),
   articleEl = document.createElement( 'article' ),
