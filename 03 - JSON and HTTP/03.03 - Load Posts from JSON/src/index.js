@@ -12,19 +12,19 @@ let apiRoot = 'https://api-demo.dev/wp-json',
 listPosts.init = function() {
 
   fetch(  apiRoot + '/wp/v2/posts/?per_page=5' )
-  .then( response => {
-    if (response.status !== 200) {
-      console.log('Problem! Status Code: ' +
-        response.status);
-      return;
-    }
-    response.json().then( posts => {
-      listPosts.clearPosts();
-      listPosts.render( posts );
-    });
-  })
-  .catch( err => {
-  console.log('Error: ', err);
+    .then( response => {
+      if (response.status !== 200) {
+        console.log('Problem! Status Code: ' +
+          response.status);
+        return;
+      }
+      response.json().then( posts => {
+        listPosts.clearPosts();
+        listPosts.render( posts );
+      });
+    })
+    .catch( err => {
+    console.log('Error: ', err);
   });
 
 };
@@ -38,7 +38,7 @@ listPosts.init();
  */
 listPosts.render = function( posts ) {
   for ( let post of posts ) {
-  listPosts.renderPost( post );
+    listPosts.renderPost( post );
   }
 };
 
