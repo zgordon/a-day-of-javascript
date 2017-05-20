@@ -5,12 +5,12 @@
 
 // Set Variables
 let post = {
-			title: 'New Post',
-			content: 'Get it going!!!'
-		},
-		articleEl = document.createElement('article'),
-		postMarkup = '',
-		mainContentEl = document.getElementById('main');
+      title: 'New Post',
+      content: 'Get it going!!!'
+    },
+    articleEl = document.createElement('article'),
+    postMarkup = '',
+    mainContentEl = document.getElementById('main');
 
 // Create post markup
 postMarkup += `<h2 class="entry-title"><a href="#">${post.title}</a></h2>`;
