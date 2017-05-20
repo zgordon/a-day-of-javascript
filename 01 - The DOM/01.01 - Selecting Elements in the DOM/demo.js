@@ -6,11 +6,11 @@
 
 // Set Variables
 let mainContentEl = document.getElementById('main'),
-		posts = {
-			title: document.querySelector('article.post .entry-title a'),
-			content: document.querySelector('article.post .entry-content')
-		},
-		postTitles = document.querySelectorAll('article.post .entry-title a');
+    posts = {
+      title: document.querySelector('article.post .entry-title a'),
+      content: document.querySelector('article.post .entry-content')
+    },
+    postTitles = document.querySelectorAll('article.post .entry-title a');
 
 // Log Values
 console.log( 'Main Content:', mainContentEl );
@@ -20,5 +20,5 @@ console.log(  'First Post Content: ', post1.content.innerText );
 console.log(  'First Post Content: ', post1.content.innerHTML );
 console.log( 'List of Posts: ' );
 for( let title of postTitles  ) {
-	console.log( title.innerText );
+  console.log( title.innerText );
 }
