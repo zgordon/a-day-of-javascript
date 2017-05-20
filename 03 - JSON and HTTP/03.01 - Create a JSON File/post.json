@@ -1,5 +1,5 @@
 [{
-	"title": "Hello JSON!",
-	"slug": "hello-json",
-	"content": "Some post content goes here."
+  "title": "Hello JSON!",
+  "slug": "hello-json",
+  "content": "Some post content goes here."
 }]

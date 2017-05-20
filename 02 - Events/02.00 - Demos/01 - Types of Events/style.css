@@ -45,8 +45,7 @@ ul {
   display: none;
 }
 
-#contact input,
-#contact textarea {
+#contact input, #contact textarea {
   width: 100%;
 }
 
@@ -61,9 +60,7 @@ ul {
   margin: 10px 0 5px;
 }
 
-#video,
-#drag-and-drop-demo,
-#lightbox-demo {
+#video, #drag-and-drop-demo, #lightbox-demo {
   display: none;
 }
 
@@ -72,8 +69,7 @@ ul {
   overflow: auto;
 }
 
-.draggable.items,
-.droppable {
+.draggable.items, .droppable {
   border: 4px #222 solid;
   float: left;
   min-height: 200px;
@@ -117,7 +113,7 @@ ul {
 }
 
 #overlay {
-  background: rgba( 0, 0, 0, .8 );
+  background: rgba( 0, 0, 0, .8);
   height: 100%;
   width: 100%;
   position: absolute;
@@ -127,16 +123,16 @@ ul {
 }
 
 #overlay a.close {
-    color: #fff;
-    text-decoration: none;
-    font-size: 2rem;
-    font-family: Helvetica;
-    border: 4px #fff solid;
-    padding: 10px;
-    top: 10px;
-    right: 10px;
-    position: absolute;
-    background: rgba( 255, 255, 255, .1);
+  color: #fff;
+  text-decoration: none;
+  font-size: 2rem;
+  font-family: Helvetica;
+  border: 4px #fff solid;
+  padding: 10px;
+  top: 10px;
+  right: 10px;
+  position: absolute;
+  background: rgba( 255, 255, 255, .1);
 }
 
 #overlay img {
