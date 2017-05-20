@@ -7,12 +7,12 @@
 // ul.appendChild( li );
 
 let mainContentEl = document.getElementById( 'main' ),
-		articleEl = document.createElement( 'article' ),
-		post = {
-			title: 'Hello!',
-			content: '<p>Post content</p>'
-		},
-		markup = '';
+  articleEl = document.createElement( 'article' ),
+  post = {
+  title: 'Hello!',
+  content: '<p>Post content</p>'
+  },
+  markup = '';
 
 markup += `<h2 class="entry-title">${post.title}</h2>`;
 
