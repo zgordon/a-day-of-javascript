@@ -6,6 +6,6 @@ let link = document.querySelector( 'p.into a' );
 
 link.addEventListener( 'click', sayHi, false );
 
-function sayHi() {
+function sayHi( event ) {
 	console.log( 'Hi!' );
 }
