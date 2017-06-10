@@ -12,8 +12,7 @@ for ( let link of links ) {
 }
 
 // Write function to log post title
-function logTitle() {
-	let e = arguments[0] || event;
-	e.preventDefault();
-	console.log( e.target.innerText );
+function logTitle( event ) {
+	event.preventDefault();
+	console.log( event.target.innerText );
 }

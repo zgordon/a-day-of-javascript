@@ -10,9 +10,8 @@ let form = document.querySelector('form.add-post');
 form.addEventListener( 'submit', addPost, false );
 
 // Function to add post to page
-function addPost() {
-	let e = arguments[0] || event,
-			post= {
+function addPost( event ) {
+	let post= {
 				title: document.querySelector('input.title-editor').value,
 				content: document.getElementById('content-editor').value
 			},
@@ -20,7 +19,7 @@ function addPost() {
 			postMarkup = '',
 			mainContentEl = document.getElementById('main');
 
-	e.preventDefault();
+	event.preventDefault();
 
 	if( '' === post.title || '' === post.content ) {
 		alert('Please fill in both fields');
